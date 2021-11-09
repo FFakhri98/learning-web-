@@ -1,0 +1,18 @@
+ul{
+    list-style-type: square;
+    list-style-image: url("./1.png");
+    list-style-position: inside;
+    border: 1px solid red;
+    margin: 50px;
+}
+table, tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tr:nth-child(even){
+    background-color: gray;
+}
+tr:hover{
+    color: red;
+}
+

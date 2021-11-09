@@ -1,0 +1,142 @@
+body{
+    padding: 100px;
+    text-align: center;
+}
+.one{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.one li{
+    width: 100px;
+    padding: 10px;
+    height: 50px;
+    background-color: lightgreen;
+    text-align: center;
+    margin: 1px 0;
+    line-height: 50px;
+}
+.one li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.one li a:hover{
+    color: blue;
+}
+.two{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.two li{
+    width: 100px;
+    padding: 10px;
+    height: 50px;
+    background-color: lightgreen;
+    text-align: center;
+    margin: 1px 0;
+    line-height: 50px;
+    display: inline;
+}
+.two li a{
+    text-decoration: none;
+    color: black;
+}
+.two li a:hover{
+    color: blue;
+}
+.three{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.three li{
+    width: 100px;
+    padding: 10px;
+    height: 50px;
+    background-color: lightgreen;
+    text-align: center;
+    margin: 1px 0;
+    line-height: 50px;
+    display: inline-block;
+}
+.three li a{
+    text-decoration: none;
+    color: black;
+}
+.three li a:hover{
+    color: blue;
+}
+.three li:hover{
+    background-color: lightsalmon;
+}
+.four{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.four li{
+    width: 100px;
+    padding: 10px;
+    height: 50px;
+    background-color: lightgreen;
+    text-align: center;
+    margin: 1px 0;
+    line-height: 50px;
+    display: inline-block;
+}
+.four li a{
+    text-decoration: none;
+    color: black;
+}
+.four li a:hover{
+    color: blue;
+}
+.four li:hover{
+    background-color: lightsalmon;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    margin: 50px auto;
+    background-color: yellowgreen;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.gallery{
+    width: 300px;
+    height: auto;
+    float: left;
+    border: 1px solid black;
+    margin: 5px;
+}
+a img{
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 20px;
+    text-align: left;
+}
+.gallery:hover{
+    border: 1px solid red;
+    opacity: 0.8;
+}

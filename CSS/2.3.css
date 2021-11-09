@@ -1,0 +1,37 @@
+body{
+    background-color: (0,0,0,0.5);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+h2{
+    color: rgb(12, 160,230);
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+    /*
+    another way
+    border : width style color
+    */
+    border-radius: 5px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /*
+    another way
+    margin : top right bottom left
+    margin : top LeftAndRight bottom
+    margin : TopAndBottom RightAndLeft
+    */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    /*
+    another way
+    padding: top right bottom left
+    padding: top RightAndLeft bottom
+    padding:TopAndBottom LeftAndRight
+    */
+}

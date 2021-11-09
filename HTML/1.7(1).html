@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style=" padding: 50px; text-align: left;">
+    <form method="GET"> <!--action, target and method are its attributes-->
+        <label for="firstName">FirstName :</label>
+        <input type="text" placeholder="zahra" value="Reza">
+        <br/>
+        <input type="password" placeholder="123">
+        <br/>
+        <input type="checkbox">Fmale</input>
+        <br/>
+        <input type="radio" value="red" name="color">Red</input>
+        <input type="radio" value="blue" name="color">blue</input>
+        <br/>
+        <input type="number" placeholder="0" min="0" max="20">
+        <br/>
+        <input type="range" min="3" max="15" step="3">
+        <br/>
+        <input type="text" minlength="2" maxlength="10">
+        <br/>
+        <input type="text" disabled>
+        <br/>
+        <select>
+            <option>one</option>
+            <option>two</option>
+            <option>three</option>
+        </select>
+        <br/>
+        <textarea rows="4" cols="10"></textarea>
+        <br/>
+        <input type="file"></input>
+        <br/>
+        <!--uploading more than one file-->
+        <input type="file" multiple></input>
+        <br/>
+        <input type="color">
+        <br/>
+        <input type="date" min="1999-06-22" max="2000-12-25">
+        <br/>
+        <input type="submit"></input>
+        <!--in Get method we will see the data in url but in post method we wont and security is important -->
+    </form>
+</body>
+</html>
